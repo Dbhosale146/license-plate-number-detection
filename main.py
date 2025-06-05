@@ -13,7 +13,7 @@ from paddleocr import PaddleOCR
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 #Create a Video Capture Object
 cap = cv2.VideoCapture("data/carLicence1.mp4")
-#Initialize the YOLOv10 Model
+#Initialize the YOLOv8 Model
 model = YOLO("weights/best.pt")
 #Initialize the frame count
 count = 0
